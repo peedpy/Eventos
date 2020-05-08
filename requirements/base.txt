@@ -1,4 +1,9 @@
 Django==3.0.4
+Pillow==7.0.0
+psycopg2==2.8.4
+python-slugify==4.0.0
+unipath==1.1
+
 
 
 arrow==0.15.5
@@ -18,13 +23,11 @@ Jinja2==2.11.2
 jinja2-time==0.2.0
 MarkupSafe==1.1.1
 oauthlib==3.1.0
-Pillow==7.0.0
-poyo==0.5.0
-psycopg2==2.8.4
+
 pycparser==2.20
 PyJWT==1.7.1
 python-dateutil==2.8.1
-python-slugify==4.0.0
+
 python-social-auth==0.3.6
 python3-openid==3.1.0
 pytz==2019.3
