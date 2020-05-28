@@ -15,7 +15,12 @@ SECRET_KEY = 'zay#c2%=(eqb^%fj5#z0gh9hmhl(n1+6=hoi4%^f^d8a#)mj$_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "localhost",
+    "0.0.0.0",
+    "127.0.0.1",
+    '*',
+]
 
 
 # Application definition
@@ -26,6 +31,7 @@ DJANGO_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'import_export',
 ]
 
 LOCAL_APPS = [
@@ -87,3 +93,5 @@ USE_TZ = True
 
 #Direcciono la clase User del modelo de la app users 
 AUTH_USER_MODEL = 'users.User'
+
+IMPORT_EXPORT_USE_TRANSACTIONS = True

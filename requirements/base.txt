@@ -3,6 +3,9 @@ Pillow==7.0.0
 psycopg2==2.8.4
 python-slugify==4.0.0
 unipath==1.1
+tablib==2.0.0
+
+
 
 
 
